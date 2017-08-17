@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Almendra+Display|Almendra+SC|Amita|Antic+Didone');
+form {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+input {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#carouselExampleControls {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 60px;
+    padding-bottom: 60px ;
+}
+
+h1 {
+    font-family: 'Antic Didone', serif;
+}
+
+h4 {
+    font-family: 'Antic Didone', serif;
+}
+ 
+p {
+    font-family: 'Antic Didone', serif;
+}
+
+.card-deck {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.navbar-brand {
+    font-family: 'Antic Didone', serif;
+}
+
+.nav-link {
+    font-family: 'Antic Didone', serif;
+}
+
+.form-control-label {
+    font-family: 'Antic Didone', serif;
+    font-size: 40px;
+}
+
+.btn {
+     font-family: 'Antic Didone', serif;
+}
