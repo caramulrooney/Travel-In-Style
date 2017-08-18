@@ -1,29 +1,63 @@
 h1 {
-    color: white;
+    color: black;
     text-align: center;
 }
 
 a {
-    font-family: times;
-    font-size: 30px;
-    color: white;
+    font-family: 'Antic Didone', serif;
+    font-size: 20px;
+    color: black;
+    
     
 }
 
 h2 {
-    color: white;
-    font-family: times;
+    color: black;
+    font-family: 'Antic Didone', serif;
     font-size: 20px;
+    
+    
+}
+
+h3 {
+    background-color: white;
+    margin-right: 90px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+    
+    border-radius: 10px 5%;
     
 }
 
 p {
-    color: white;
-    font-family: times;
-    font-size: 12px;
+    color: black;
+    font-family: 'Antic Didone', serif;
+    font-size: 20px;
+    margin-right: 90px;
+    text-align: center;
+    font-weight: normal;
+    background-color: white;
+    
+    border-radius: 10px 5%;
     
 }
 
 img {
-    height: 225px;
+    height: 300px;
+    width:450px;
+    text-align: center;
+   
+    border-radius: 25px;
 }
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+
+li { 
+    font-family: 'Antic Didone', serif
+}
+

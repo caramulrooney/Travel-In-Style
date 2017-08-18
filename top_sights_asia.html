@@ -1,54 +1,71 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>10 places in South America</title>
+        <title>10 places in Asia</title>
         
-        <link rel="website" href="top_sights.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKPv1ZfKiS__T6DDVDL3CPWE-IXG2yI-0&callback=initMap" type="text/javascript"></script>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="top_sights.css">
+        <meta charset = "UTF-8">
     </head>
     <body>  
         <div class="jumbotron">
             <h1>Top 10 places in Asia</h1>
         </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index_home.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="top_sights.html">Top Sights <span class="sr-only"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
             <ol>
                 <li>
                     <h3> Gansu, China </h3>
                     <p> Gansu is a land of snow-capped mountains, big skies and Silk Road history, with surreal terrain ranging from the arid peaks of Xiahe to the Instagrammable rainbow desert of Danxia National Geopark. Besides this visual feast, local cuisine – especially Lanzhou-style hand-pulled noodles – has earned a cult foodie following. The province is blissfully well-connected thanks to high-speed rail services and upgraded highways, and a new metro will ease traffic in provincial capital Lanzhou when it opens this year. But sights like the giant Buddha at Bingling Monastery still retain an otherworldly atmosphere. Gansu’s crown jewel and world-class Buddhist art site, the Mogao Grottoes, received a huge upgrade in 2015, but – just like the entire region – remains underrated and relatively crowd-free. </p>
-                    <img src="http://www.advantour.com/img/china/gansu/gansu.jpg" width="650 px"/>
+                    <img src="http://www.advantour.com/img/china/gansu/gansu.jpg" width="650 px"class="center-block"/>
                 </li>
                 <li>
                     <h3> Tokyo, Japan </h3>
                     <p> Two cities south of Tokyo are well worth making time for on any visit to Japan. Yokohama, the country's second largest metropolis, is just a 20-minute train journey from the capital and packs considerable appeal with its bayside location, eclectic architecture, microbreweries and tasty cuisine. From 4 August to 5 November 2017, the Yokohoma Triennale (yokohamatriennale.jp) will add creative contemporary art projects to the mix. Alternatively, you could be strolling between venerable temples and shrines in the verdant hills surrounding Kamakura, Japan's first feudal capital. Less than an hour from Tokyo, this classy seaside town is known for its surfing scene, but also offers a tempting selection of relaxed cafes and restaurants and an iconic giant statue of Buddha. </p>
-                    <img src="http://alexfinds.com/wp-content/uploads/2016/09/tokyo-japan-1.jpg" width="650 px"/>
+                    <img src="http://alexfinds.com/wp-content/uploads/2016/09/tokyo-japan-1.jpg" width="650 px"class="center-block"/>
                 </li>
                 <li>
                     <h3> Northern Kerala, India </h3>
                     <p> Travellers have been making a beeline for Kerala’s southern beaches for years but Northern Kerala has long been the underrated half of the state, concealing its backwater charms and emerging slowly like a butterfly from a chrysalis. 2017 marks India’s 70th year of independence and the opening of a new international airport in Kannur – Kerala’s largest – which will provide an easy introduction to the north. The beaches around Kannur, Thottada and Bekal are pristine, and a string of homestays and resorts have sprouted to give in-the-know travellers on all budgets a beachfront view that should make Goa’s hoteliers weep. In the eastern hills you’ll find Wayanad, one of Kerala’s most underrated wildlife sanctuaries and a haven for wild elephants. </p>
-                    <img src="http://www.fleewinter.com/wp-content/uploads/2016/11/day1Wayanad-1.jpg" width="650 px"/>
+                    <img src="http://www.fleewinter.com/wp-content/uploads/2016/11/day1Wayanad-1.jpg" width="650 px"class="center-block"/>
                 </li>
                 <li>
                     <h3> Keong Saik Road, Singapore </h3>
                     <p> Once a crime-riddled red-light district, Keong Saik Road has reinvented itself to become the poster-child for hip ‘New Singapore’. Behind the beautiful colonial and art-deco buildings you’ll discover the best of Singapore’s famed dining scene, where inventive Asian fusion is on the menu at the likes of Meta. Fabulous rooftop views and super-slick cocktail bars like Potato Head Singapore draw a trendy crowd, and you can sleep it all off in a boutique hotel room such as the ‘heritage chic’ offerings at Naumi Liora. Adjoining Neil Road and Tek Lim Road have also caught the ‘cool’ contagion and have developed their own unique personalities, making this little pocket of Singapore a delight for any visitor to this island nation. </p>
-                    <img src="http://i.cdn.travel.cnn.com/sites/default/files/styles/604x453_gallery/public/2013/09/13/gallery-keong-saik.jpg?itok=wkWRYrnC" width="650 px"/>
+                    <img src="http://i.cdn.travel.cnn.com/sites/default/files/styles/604x453_gallery/public/2013/09/13/gallery-keong-saik.jpg?itok=wkWRYrnC" width="650 px"class="center-block"/>
                 </li>
                 <li>
                     <h3> Astana, Kazakhstan </h3>
                     <p> As you fly over Kazakhstan’s seemingly endless, empty steppe, a glimmering city suddenly comes into view. A mirage of glass and steel with a stained-glass pyramid, golden skyscrapers and the world’s largest marquee, Astana is the city that oil built and part of President Nazarbayev’s futuristic vision. Fittingly, from mid-June to mid-September 2017, Astana will host the World Expo on the subject of sustainable energy. And as of 2017, citizens of 45 countries (including those of the EU, USA, Canada and Australia) may visit Kazakhstan without a visa for up to 30 days. Furthermore, the introduction of the LTR (light rail transit) and improvements to the existing bus network are making a visit to this modern, cosmopolitan city even easier. </p>
-                    <img src="http://ilovetripping.com/wp/wp-content/uploads/2017/01/ast18-1024x690.jpg" width="650 px"/>
+                    <img src="http://ilovetripping.com/wp/wp-content/uploads/2017/01/ast18-1024x690.jpg" width="650 px"class="center-block"/>
                 </li>
                 <li>
                     <h3> Takayama, Japan </h3>
                     <p> Since the 17th century, Takayama hasn't changed much. Every morning, the deshi (disciples) of ‘temple town’ sweep, rake stones and open shoji (sliding doors), letting sunlight in; artisans and grocers greet shoppers at the asa-ichi (morning markets), giggling school children scamper across age-old bridges over the lazy Miya-gawa. Takayama Matsuri – one of Japan’s greatest festivals, held in spring and autumn – is as colourful and captivating as the seasons themselves. But Takayama is changing: its charmingly rickety station has been replaced with a shiny grey box. Ancient alleyways echo a din of voices from faraway lands. Eternally gracious, an inn-keeper fumbles with a Spanish phrasebook. Another anime pilgrim snaps selfies at a street-food stand. The time to treasure Takayama is now. </p>
-                    <img src="http://jtbmalaysia.com/wp-content/uploads/2016/06/141231takayama106729143023.jpg" width="650 px"/>
+                    <img src="http://jtbmalaysia.com/wp-content/uploads/2016/06/141231takayama106729143023.jpg" width="650 px"class="center-block"/>
                 </li>
                 <li>
                     <h3> Xi’an, China </h3>
                     <p> Where else in China can you cycle Ming city walls – on a full circuit? Once Tang China’s grandest city, not to mention the eastern starting point of the Silk Road, Xi’an’s diverse heritage is supreme: there’s the bustling Muslim Quarter, the myth-wreathed peaks of Hua Shan, imperial tombs dotting the surrounding plains and China’s best collection of Tang dynasty pagodas. And then there’s the biggie: the Army of Terracotta Warriors, celebrating 30 years as a Unesco World Heritage Site in 2017. Xi’an is vast, but a relaxed tempo reigns and recent openings have boosted an already superb accommodation market; throw in a crop of new bars and cafes plus the 72-hour visa-free policy and there’s never been a better time to visit. </p>
-                    <img src="https://i.ytimg.com/vi/l9U7Yq7r96I/maxresdefault.jpg" width="650 px"/>
+                    <img src="https://i.ytimg.com/vi/l9U7Yq7r96I/maxresdefault.jpg" width="650 px"class="center-block"/>
                 </li>
                 <li>
                     <h3> Sri Lanka’s Hill Country </h3>
                     <p> Take a scenic train to Sri Lanka's idyllic Hill Country for a wonderfully temperate escape from the nation's humid coasts. Kandy is an ideal introduction to the region: its lakeside location, sacred Buddhist sites and botanical gardens make it a delight to explore. The green hills beyond are carpeted with tea plantations – visit the Ceylon Tea Museum to learn about the country's most famous export. Other highlights include the highland town of Nuwara Eliya, once a hub of the British Empire, where you can relive the colonial times in its stately hotels and nostalgic tea rooms. Elsewhere, tiny Ella is expanding rapidly as a key hiking centre, with excellent local hill-walking and a pint-sized high street dotted with independent cafes and restaurants. </p>
-                    <img src="http://www.lanka-holidays.com/images/photos/ceylon-tea-plantation.jpg" width="650 px"/>
+                    <img src="http://www.lanka-holidays.com/images/photos/ceylon-tea-plantation.jpg" width="650 px"class="center-block"/>
                 </li>
                 <li>
                     <h3> Melaka City, Malaysia </h3>

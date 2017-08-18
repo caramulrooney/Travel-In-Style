@@ -3,62 +3,79 @@
     <head>
         <title>10 Places in North America</title>
         
-        <link rel="website" href="top_sights.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKPv1ZfKiS__T6DDVDL3CPWE-IXG2yI-0&callback=initMap" type="text/javascript"></script>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="top_sights.css">
+        <meta charset = "UTF-8">
     </head>
     <body>
         <div class="jumbotron">
             <h1>Top 10 places in North America</h1>
         </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index_home.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="top_sights.html">Top Sights <span class="sr-only"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
             <ol>  
                 <li>
                     <h3> Utah's Red Rock Country </h3>
                     <p> The five national parks across Southern Utah feature some of the most unique and beautiful landscapes in North America with much of it sculpted from the distinctive red sandstone that covers this part of the continent. Together these parks -- including Zion, Bryce Canyon, Arches, Canyonlands, and Capitol Reef -- offer thousands of natural arches, miles of breathtaking canyons, and towering buttes and rock faces that have become a nation's sacred natural treasures.</p>
-                    <img src="https://www.etraveltrips.com/wp-content/uploads/2012/05/Moab-and-Red-Rock-Country.jpg" width="650 px"/>
+                    <img src="https://www.etraveltrips.com/wp-content/uploads/2012/05/Moab-and-Red-Rock-Country.jpg" width="650 px" class= "center-block">
                 </li>
                 <li> 
                     <h3> Acadia </h3>
                     <p> People have been drawn to the rugged coast of Maine throughout history. Awed by its beauty and diversity, early 20th-century visionaries donated the coastal islands that became the first national park east of the Mississippi River. Acadia is home to many plants and animals that are native to northern humid continental forests as well as the tallest mountain on the U.S. Atlantic coast. Today visitors come to Acadia to hike granite peaks, bike historic carriage roads, or delight in the scenery that is little changed since the French explorer Samuel de Champlain sailed past it in 1604.</p>
-                    <img src="http://www.acadiamagic.com/1200w/sunrise-1108.jpg" width="650 px"/>
+                    <img src="http://www.acadiamagic.com/1200w/sunrise-1108.jpg" width="650 px" class="center-block">
                 </li>
                 <li>
                     <h3> Death Valley </h3>
                     <p> This spectacular below-sea-level basin combines the hottest, driest, and lowest points in North America. Steady drought and record summer heat make Death Valley a land of extremes, but each extreme has a striking contrast. Towering peaks are frosted with winter snow. Rare rainstorms bring vast fields of wildflowers. Lush oases harbor tiny fish and provide refuge for wildlife and humans. Despite its morbid name, a great diversity of life survives across this harsh, but beautiful landscape. </p>
-                    <img src="https://npca.s3.amazonaws.com/images/8696/8d5006eb-116e-43ca-8c5f-9b376a78d152-banner.jpg?1445970301" width="650 px"/>
+                    <img src="https://npca.s3.amazonaws.com/images/8696/8d5006eb-116e-43ca-8c5f-9b376a78d152-banner.jpg?1445970301" width="650 px" class="center-block">
                 </li>
                 <li>
                     <h3>Everglades </h3>
                     <p> Everglades National Park is the United States' largest subtropical wilderness that protects an unparalleled landscape filled with flora and fauna that blend life from the Caribbean tropics with more familiar species from temperate North America. At nearly 1.5 million acres in size -- but still only 20 percent of the historic Everglades ecosystem -- the park provides important habitat for numerous rare and endangered species like the manatee, American crocodile, and the elusive Florida panther. </p>
-                    <img src="https://www.national-park.com/wp-content/uploads/2016/04/Welcome-to-Everglades-National-Park.jpg" width="650 px"/>
+                    <img src="https://www.national-park.com/wp-content/uploads/2016/04/Welcome-to-Everglades-National-Park.jpg" width="650 px"class="center-block">
                 </li>
                 <li>
                     <h3> Mammoth Cave</h3>
                     <p> This underground National Park preserves what one early visitor described as a "grand, gloomy and peculiar place" that's a part of the Green River valley and hilly country of south central Kentucky. It is by far the world's longest known cave system, with more than 400 miles (644km) explored. Humans have been venturing into its vast chambers and complex labyrinths for at least 6,000 years and in 1981 it was named as a World Heritage Site.</p>
-                    <img src="https://www.nationalparks.org/sites/default/files/Mammoth_Cave_National_Park_VGNT%20%281%29.jpg" width="650 px"/>
+                    <img src="https://www.nationalparks.org/sites/default/files/Mammoth_Cave_National_Park_VGNT%20%281%29.jpg" width="650 px"class="center-block">
                 </li>
                 <li>
                     <h3> Redwood Forest </h3>
                     <p> Most people know California's redwood forest as home to the tallest trees on Earth. But the national and state parks also protect vast prairies, oak woodlands, wild rivers, and nearly 40 miles of pristine Pacific Ocean coastline, all supporting a rich mosaic of wildlife diversity and cultural traditions. Still, the great redwoods rule the forest, with heights of over 370 feet (113 m) and average lifespans of 500 to 700 years. </p>
-                    <img src="http://kids.nationalgeographic.com/content/dam/kids/photos/articles/Nature/H-P/Parks/redwood-forest.adapt.945.1.jpg" width="650 px"/>
+                    <img src="http://kids.nationalgeographic.com/content/dam/kids/photos/articles/Nature/H-P/Parks/redwood-forest.adapt.945.1.jpg" width="650 px"class="center-block">
                 </li>
                 <li>
-                    <h3> Yosemite Vally</h3>
+                    <h3> Yosemite Valley</h3>
                     <p> Glaciers reaching back over 30 million years carved what American naturalist John Muir hailed as one of "God's first temples." Almost eight miles long and up to one mile across, with towering 3,000 to 4,000 foot near-vertical walls, Yosemite Valley is what most visitors think of when they hear "Yosemite." Within the valley are ten waterfalls over 500 feet high including the majestic Yosemite Falls that drops 2,425 feet down a series of rock-ledge steps. The yellow pine and oak forests and open meadows on the valley floor have enchanted human visitors for thousands of years.</p>
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-o/02/24/d5/58/merced-river.jpg" width="650 px"/>
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-o/02/24/d5/58/merced-river.jpg" width="650 px"class="center-block"/>
                 </li>
                 <li>
                     <h3> 7. Denali</h3>
                     <p> Denali is six million acres of wild land in the heart of central Alaska, bisected by one ribbon of road that takes visitors into the Denali National Park and Preserve. Travelers along it see the relatively low-elevation taiga forest give way to high alpine tundra and snowy mountains, culminating in North America's tallest peak, 20,320 foot-high Mount McKinley. Wild animals large and small roam unfenced lands, living as they have for ages. Solitude, tranquility and wilderness abound. </p>
-                    <img src="https://www.kantishnaroadhouse.com/wp-content/uploads/2016/09/homepage-body-slide-2.jpg" width="650 px"/>
+                    <img src="https://www.kantishnaroadhouse.com/wp-content/uploads/2016/09/homepage-body-slide-2.jpg" width="650 px"class="center-block"/>
                 </li>
                 <li>
                     <h3> Yellowstone </h3>
                     <p> Millions of years ago, a giant supervolcano arose deep below what is now the northwestern corner of Wyoming and still simmers today, producing Old Faithful and the majority of the world's geysers that are found within Yellowstone National Park. These boiling wonders are the main reason the park was established in 1872 as America's first national park -- an idea that soon spread worldwide. Yellowstone is home to grizzly bears, wolves, and herds of bison and elk and is cherished as the core of one of the last, nearly intact, natural ecosystems in the Earth's temperate zone.</p>
-                    <img src="http://www.internetdict.com/wp-content/uploads/related_images/2016/01/18/what-is-yellowstone-national-park_3.jpg" width="650 px"/>
+                    <img src="http://www.internetdict.com/wp-content/uploads/related_images/2016/01/18/what-is-yellowstone-national-park_3.jpg" width="650 px"class="center-block"/>
                 </li>
                 <li>
                     <h3> Grand Canyon </h3>
                     <p> One of the world's most powerful and inspiring landscapes, the Grand Canyon overwhelms our senses through its immense size. Standing on the rim of this vast creation is unquestionably one of the greatest encounters with the majesty of nature. Unique combinations of geologic color and erosional forms decorate a canyon that is 277 river miles (446km) long, up to 18 miles (29km) wide, and a mile (1.6km) deep. Almost two billion years of Earth's history have been exposed on its towering walls as the Colorado River cut a path down through the Colorado Plateau over the past 17 million years.</p>
-                    <img src="https://www.grandcanyonwest.com/files/3456/gcw-hp-canyonsunset.jpg" width="650 px"/>
+                    <img src="https://www.grandcanyonwest.com/files/3456/gcw-hp-canyonsunset.jpg" width="650 px"class="center-block"/>
                 </li>
             </ol>
             <h3> <a href="top_sights.html"> BACK TO HOME </a></h3>
